@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Talk</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="new_account">Register Now</string>
+    <string name="account">Account</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="check_password">Check Password</string>
+    <string name="register">Register</string>
+    <string name="cancel">Cancel</string>
+    <string name="send">Send</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+
+    <string name="title_message">Message</string>
+    <string name="title_friend">Friend</string>
+    <string name="title_more">More</string>
+    <string name="title_info">Info</string>
+</resources>

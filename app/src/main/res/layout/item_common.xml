@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <me.daylight.talk.customview.CommonItemView
+        android:id="@+id/common_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:minHeight="@dimen/qmui_list_item_height" />
+
+    <TextView
+        android:id="@+id/common_msg_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:minWidth="16dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:visibility="gone"
+        android:background="@drawable/bg_number"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="end|bottom"/>
+</FrameLayout>
